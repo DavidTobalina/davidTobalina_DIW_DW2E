@@ -1,0 +1,2 @@
+[1007/084823.835:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\usuario\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\29bc0452-6f73-4f03-9102-280aebd2cf1b: El sistema no puede encontrar la ruta especificada. (0x3)
+[1007/084823.835:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
