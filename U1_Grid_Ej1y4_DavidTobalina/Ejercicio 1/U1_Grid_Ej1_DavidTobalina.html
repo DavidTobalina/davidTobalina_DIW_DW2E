@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>U1_grid_Ej1</title>
+	<style>
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr 2fr) ;
+			grid-template-rows: repeat(3, 1fr 1fr) ;
+            grid-gap: 0.5rem;
+            height: 25rem;
+		}
+		
+		div.grid div{
+			border: 1px solid black;
+		}
+
+        div.item1{
+            background-color: gray;
+        }
+
+        div.item2{
+            background-color: yellow;
+        }
+
+        div.grid ~ div{
+        	display: grid;
+			grid-template-columns: repeat(2, 1fr 2fr) ;
+			grid-template-rows: 1fr 1fr;
+            grid-gap: 0.5rem;
+        }
+		
+	</style>
+</head>
+<body>
+    <h4>Dioses primigenios</h4>
+	<div class="grid">
+		<div class="item1">1</div>
+		<div class="item2">Cthulu</div>
+		<div class="item1">2</div>
+		<div class="item2">Cthulu</div>
+		<div class="item1">3</div>
+		<div class="item2">Cthulu</div>
+		<div class="item1">4</div>
+		<div class="item2">Cthulu</div>
+		<div class="item1">5</div>
+		<div class="item2">Cthulu</div>
+		<div class="item1">6</div>
+		<div class="item2">Cthulu</div>
+	</div>
+	<div>
+		<div class="item1">7</div>
+		<div class="item2">Cthulu</div>
+		<div class="item1">8</div>
+        <div class="item2">Cthulu</div>
+        <div class="item1">9</div>
+        <div class="item2">Cthulu</div> 
+        <div class="item1">10</div>
+		<div class="item2">Cthulu</div>
+	</div>
+</body>
+</html>
