@@ -1,0 +1,75 @@
+div {
+    box-sizing: border-box;
+}
+.row {
+    border: 10px solid black;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;    
+}
+.element {
+    border: 10px solid green;
+	padding: 0.5em;
+}
+.image {
+    border: 10px solid blue;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.text {
+    border: 10px solid red;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+  /* A partir de 768px dos cajas*/
+  @media all and (min-width: 768px) {
+    .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+    .image{
+        color: blue;
+    }
+    
+    .text {
+        color: blue;	
+    }
+  }
+
+    /* A partir de 1024px tres cajas*/
+    @media all and (min-width: 1024px) {
+        .row{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 1em;
+        }
+        .image{
+            color: green;
+        }
+        
+        .text {
+            color: green;	
+        }
+      }
+
+  /* A partir de 1200px seis cajas*/
+  @media all and (min-width: 1200px) {
+    .row{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 1em;
+    }
+
+    .image{
+        color: red;
+    }
+    
+    .text {
+        color: red;	
+    }
+  }
