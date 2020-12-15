@@ -1,0 +1,411 @@
+#container{
+    background-image: url("./imagenes/0.93410100-1536731687yiTapGl3fYptI0ST-default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+	justify-content:space-around;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    line-height: 6rem;
+}
+
+header > div:first-child{
+    height: 5vw;
+    width: 5vw;
+    background-image: url("./imagenes/travel-logo-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > div:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div:last-child > a{
+    display: block;
+    height: 3rem;
+    line-height: 3rem;
+    width: 7rem;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+header > h1{
+    margin: 0;
+    font-size: 3vw;
+    white-space: nowrap;
+}
+
+header > input{
+    height: 3rem;
+    width: 47rem;
+    border-radius: 1rem;
+}
+
+.extremos{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 8rem;
+    color: white;
+}
+
+#container > input{
+    display: none;
+    height: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#principal{
+    height: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#principal a{
+    text-decoration: none;
+    color: white;
+    line-height: 5rem;
+    background: #000000;
+    text-align: center;
+    flex-grow: 1;
+    border-right: 2px solid white;
+}
+
+#principal a:last-child{
+    border: none;
+}
+
+#principal a:hover{
+    background:#1B1B1A;
+}
+
+section{
+    height: 45rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+article{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+article > div:first-child{
+    height: 14rem;
+}
+
+article > div:last-child{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+section > article:first-child > div:first-child{
+    background-image: url('./imagenes/plaza-espana-que-ver-sevilla-1500x1125.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > article:nth-child(2) > div:first-child{
+    background-image: url('./imagenes/SF_bridge_1200x800.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > article:nth-child(3) > div:first-child{
+    background-image: url('./imagenes/1200x630_100_300_000000x30x0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > article:nth-child(4) > div:first-child{
+    background-image: url('./imagenes/jordan_amman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > article:nth-child(5) > div:first-child{
+    background-image: url('./imagenes/bangkok_thailand_hero_gettyimages_hero_1920x1280-1-900x600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > article:last-child > div:first-child{
+    background-image: url('./imagenes/descarga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > article > div:last-child > a{
+    display: block;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(grey, #287233);
+    line-height: 2.3rem;
+    height: 2.3rem;
+    width: 6rem;
+    text-decoration: none;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    font-size: 1.2rem;
+}
+
+footer > *{
+    max-width: 27rem;
+}
+
+footer > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+footer > div:nth-child(4){
+    grid-area: 1/2/span 3;
+    display: flex;
+    line-height: 7vw;
+    box-sizing: border-box;
+}
+
+footer > div:nth-child(4) > a{
+    padding-left: 1rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+footer > div:nth-child(5){
+    grid-area: 1/3;
+    text-align: center;
+}
+
+footer > div:last-child{
+    grid-area: 2/3/span 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#final > a{
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 3.3rem;
+    width: 3.3rem;
+}
+
+#final > a:first-child{
+    margin-top: 0.3rem;
+    height: 3rem;
+    width: 3rem;
+    background-image: url("./imagenes/g.png");
+}
+
+#final > a:nth-child(2){
+    background-image: url("./imagenes/t.png");
+}
+
+#final > a:last-child{
+    background-image: url("./imagenes/f.png");
+}
+
+@media all and (max-width:768px){
+
+    header > div:first-child{
+        height: 4vw;
+        width: 4vw;
+    }
+
+    header > input{
+        height: 2rem;
+        width: 25rem;
+        border-radius: 1rem;
+    }
+
+    header > div:last-child > a{
+        width: 4rem;
+        margin-left: 1rem;
+        font-size: 1.4vw;
+    }
+
+    nav#principal{
+        height: 4rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #principal a{
+        line-height: 4rem;
+    }
+
+    section{
+        grid-template-columns: repeat(2, 30vw);
+    }
+
+    
+    article > div:first-child{
+        height: 24vw;
+    }
+    
+    article > div:last-child{
+        height: 6vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.6vw;
+        white-space: nowrap;
+    }
+    
+    section > article > div:last-child > a{
+        border-radius: 0.5rem;
+        line-height: 1.3rem;
+        height: 1.3rem;
+        width: 2.4rem;
+        font-size: 1.5vw;
+        white-space: nowrap;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
+
+    #final > a{
+        height: 4vw;
+        width: 4.3vw;
+    }
+    
+    #final > a:first-child{
+        margin-top: 0.2rem;
+        height: 4vw;
+        width: 4vw;
+    }
+}
+
+@media all and (max-width:320px){
+
+    header > div:first-child{
+        height: 10vw;
+        width: 10vw;
+    }
+
+    header > h1{
+        margin: 0;
+        font-size: 6vw;
+        white-space: nowrap;
+    }
+
+    header > div:last-child > a{
+        font-size:0.7rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    #principal {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        flex-direction: column;
+        margin-bottom: 20rem;
+    }
+    
+    #principal a{
+        border-bottom: 2px solid white;
+        border-right: 0px;
+        width: 100%;
+    }
+
+    header > input{
+        display: none;
+    }
+
+    div#container > input{
+        display: block;
+    }
+
+    section{
+        grid-template-columns: 60vw;
+        height: 70rem;
+    }
+
+    
+    article > div:first-child{
+        height: 36vw;
+    }
+    
+    article > div:last-child{
+        height: 10vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.6vw;
+        white-space: nowrap;
+    }
+
+    section > article > div:last-child > div{
+        font-size: 2.8vw;
+    }
+    
+    section > article > div:last-child > a{
+        border-radius: 0.5rem;
+        line-height: 1.3rem;
+        height: 1.3rem;
+        width: 2.8rem;
+        font-size: 2.8vw;
+        white-space: nowrap;
+    }
+
+    footer{
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-size: 0.5rem;
+    }
+    
+    footer > div:nth-child(4){
+        flex-direction: column;
+    }
+    
+    footer > div:nth-child(4) > a{
+        padding-left: 0rem;
+    }
+    
+    #final > a{
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    #final > a:first-child{
+        margin-top: 0rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        background-image: url("./imagenes/g.png");
+    }
+    
+    #final > a:nth-child(2){
+        background-image: url("./imagenes/t.png");
+    }
+    
+    #final > a:last-child{
+        background-image: url("./imagenes/f.png");
+    }
+}
