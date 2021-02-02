@@ -1,0 +1,27 @@
+h1{
+    display: block;
+    margin: 2rem;
+}
+#contenedor{
+    border: 2px solid black;
+    margin: auto;
+    width: 60rem;
+}
+#contenedor > div{
+    margin: 2rem;
+    width: auto;
+    font-size: 1.4rem;
+    visibility: hidden;
+}
+#amarillo{
+    background-color: yellow;
+}
+#morado{
+    background-color: purple;
+}
+#naranja{
+    background-color: orange;
+}
+#verde{
+    background-color: green;
+}
