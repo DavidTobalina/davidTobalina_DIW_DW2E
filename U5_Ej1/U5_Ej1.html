@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>U5_Ej1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <style>
+        img{
+            width: 100vw;
+            height: 100vh;
+        }
+        @media all and (min-width:1200px){
+            img{
+                filter:contrast(80%);
+            }
+        }
+        @media all and (max-width:1200px){
+            img{
+                filter:contrast(65%);
+            }
+        }
+        @media all and (max-width:800px){
+            img{
+                filter:contrast(50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <picture>
+        <source srcset="./cultura_paisajeiluminado_landuum5.webp" type="image/webp">
+        <source srcset="./cultura_paisajeiluminado_landuum5.jpg" type="image/jpg">
+        <img>
+    </picture>
+</body>
+
+</html>
